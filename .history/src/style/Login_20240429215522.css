@@ -1,0 +1,25 @@
+/* src/styles/Login.css */
+.login-container {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fce4ec; /* Tema rosa claro */
+  border-radius: 10px;
+}
+
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  font-weight: bold;
+}
+
+.login-form .btn-primary {
+  background-color: #ff4081; /* Cor rosa */
+  border-color: #ff4081;
+}
+
+.login-form .btn-primary:hover {
+  background-color: #ff79b0; /* Cor rosa mais clara no hover */
+}

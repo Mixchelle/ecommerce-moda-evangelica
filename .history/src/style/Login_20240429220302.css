@@ -1,0 +1,50 @@
+/* src/styles/Login.css */
+.login-container {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fce4ec; /* Tema rosa claro */
+  border-radius: 10px;
+}
+
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  font-weight: bold;
+}
+
+.login-form .btn-primary {
+  background-color: #ff4081; /* Cor rosa */
+  border-color: #ff4081;
+}
+
+.login-form .btn-primary:hover {
+  background-color: #ff79b0; /* Cor rosa mais clara no hover */
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #007bff, #0056b3); /* Fundo gradiente azul */
+}
+
+.login-form-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-form {
+  /* Adicione os estilos do formulário conforme necessário */
+}
+
+.login-image {
+  margin-right: 20px; /* Espaçamento entre a imagem e o formulário */
+}
+
+.login-image img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+}
